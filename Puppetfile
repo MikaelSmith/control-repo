@@ -15,3 +15,8 @@ forge 'https://forge.puppet.com'
 #mod 'apache',
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
+
+mod 'puppetlabs/apply_helpers', '0.1.0'
+mod 'puppetlabs/bolt_shim', '0.2.1'
+mod 'puppetlabs/facts', '0.5.0'
+mod 'puppetlabs/reboot', '2.1.2'
