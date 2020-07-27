@@ -1,7 +1,7 @@
 forge 'https://forge.puppet.com'
 
 # used for cd4pe job workers
-mod 'puppetlabs-cd4pe_jobs', '1.4.0'
+mod 'puppetlabs-cd4pe_jobs', git: 'https://github.com/MikaelSmith/puppetlabs-cd4pe_jobs.git', branch: 'cdpe-3563'
 
 # automatically upgrade agents
 mod 'puppetlabs/puppet_agent', '3.2.0'
